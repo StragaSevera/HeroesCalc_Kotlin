@@ -11,7 +11,7 @@ import ru.ought.heroes_calc.random.RandomStub
 
 object RangeDamageTest : Spek({
     describe("basic tests") {
-        val sut by memoized { RangeDamage(min = 4, max = 10, mult = 4f) }
+        val sut by memoized { RangeDamage(min = 4, max = 10, mult = 4.0) }
 
         it("gives the random amount of damage in range with multiplier") {
             val random = RandomStub(5)
