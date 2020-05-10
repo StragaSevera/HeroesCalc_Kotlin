@@ -21,6 +21,7 @@ dependencies {
     testImplementation("org.spekframework.spek2:spek-dsl-jvm:$spekVersion")
     testRuntimeOnly("org.spekframework.spek2:spek-runner-junit5:$spekVersion")
     testImplementation("ch.tutteli.atrium:atrium-fluent-en_GB:$atriumVersion")
+    testImplementation("io.mockk:mockk:$mockkVersion")
 }
 
 tasks {
