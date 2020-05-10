@@ -12,7 +12,7 @@ object FlatDamageTest : Spek({
             val random = RandomStub(5)
             val sut = FlatDamage(8)
 
-            expect(sut.resolve(random)).toBe(5)
+            expect(sut.resolve(random)).toBe(8)
         }
     }
 })
